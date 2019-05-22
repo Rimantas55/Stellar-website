@@ -10,6 +10,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 .back-btn {
@@ -84,4 +86,54 @@ h1 {
     font-size: 10pt;
     line-height: 25px;
 }
+
+
+/*section2 CSS*/
+.section2 {
+    background-color: white;
+    text-align: center;
+    padding: 37px 15px 8px 15px;
+    color: #636363;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+h2 {
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.phone {
+    height: 176px;
+}
+
+.phone img {
+    height: 100%;
+}
+
+.border-line {
+    border: 1px solid white;
+    width: 100px;
+    margin: 0 auto;
+    height: 1px;
+    background: linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+}
+
+.section2 p {
+    font-size: 10pt;
+    line-height: 25px;
+    margin-bottom: 30px;
+    /*Kaip ten su tuo font-family ir size ir t.t*/
+}
+
+.learn-more-btn {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    min-width: 100%;
+    height: 2.75em;
+    /*kai yra bottonas ir jame tekstas naudoja texto centravimui auksciui em?*/
+    line-height: 2.75em;
+    font-size: 10pt;
+    margin-bottom: 30px;
+}
+
 
