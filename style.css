@@ -55,3 +55,33 @@ header {
 */
 
 
+/*Section1 CSS*/
+.section1 {
+    background-color: #625197;
+    padding: 51px 15px 8px 15px;
+    text-align: center;
+    color: white;
+}
+
+.rocket {
+    height: 85px;
+}
+
+.rocket img {
+    height: 100%;
+}
+
+h1 {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    /*Nepavyko sumazinti fontwight iki reikiamo plocio*/
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.section1 p {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 10pt;
+    line-height: 25px;
+}
+
