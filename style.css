@@ -1,5 +1,5 @@
 /*Mobile CSS*/
-body {
+body:not(.section6) {
     background: linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 }
 
@@ -112,7 +112,7 @@ h2 {
 
 .border-line {
     border: 1px solid white;
-    width: 100px;
+    width: 80px;
     margin: 0 auto;
     height: 1px;
     background: linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
@@ -247,6 +247,7 @@ h2 {
     line-height: 25px;
 }
 /*
+spalvos
 #efa8b0;
 #c79cc8;
 #a89cc8;
@@ -302,4 +303,39 @@ h2 {
 .section4 i {
     font-size: 36pt;
     margin: 17px auto 17px auto;
+}
+
+/*section5 css*/
+
+.section5 {
+    border-top: 1px solid #e7e7e7;
+    background-color: white;
+    text-align: center;
+    padding: 37px 15px 8px 15px;
+    color: #636363;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.section5 p {
+    line-height: 25px;
+    text-align: center;
+    font-size: 10pt;
+    margin-bottom: 25px;
+}
+
+.section5 h2 {
+    margin-bottom: 16px;
+}
+
+.get-started-btn {
+    background-color: #9acff2;
+    border-radius: 8px;
+    min-width: 100%;
+    height: 2.75em;
+    /*kai yra bottonas ir jame tekstas naudoja texto centravimui auksciui em?*/
+    line-height: 2.75em;
+    font-size: 10pt;
+    margin-bottom: 30px;
+    color: white;
+    margin-bottom: 15px;
 }
