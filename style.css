@@ -335,7 +335,134 @@ spalvos
     /*kai yra bottonas ir jame tekstas naudoja texto centravimui auksciui em?*/
     line-height: 2.75em;
     font-size: 10pt;
-    margin-bottom: 30px;
     color: white;
     margin-bottom: 15px;
 }
+
+
+/*Section6 CSS*/
+.section6 {
+    text-align: left;
+    padding: 37px 15px 8px 15px;
+    margin-bottom: 44px;
+    color: white;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.contacts-content h2 {
+    margin: 0 0 16px 0;
+}
+
+.section6 .section6-first-content{
+    margin: 0 0 30px 0;
+    line-height: 25px;
+    font-size: 10pt;
+}
+
+.section6 .learn-more-btn {
+    text-align: center;
+}
+
+
+
+
+/*cotacts grid*/
+
+.contacts-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-areas:
+    "h h h"
+    "a . a1"
+    "p . p1"
+    "e . e1"
+    "s s s";
+}
+
+.contacts-header {
+    grid-area: h;
+    font-size: 15pt;
+    margin-bottom: 16px;
+}
+
+.contacts-address {
+    grid-area: a;
+    font-size: 10pt;
+    display:flex;
+    margin: 0;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.contacts-address-content {
+    grid-area: a1;
+    font-size: 9pt;
+    line-height: 25px;
+    padding: 0;
+    display:flex;
+    margin: 0;
+
+}
+
+.contacts-phone {
+    grid-area: p;
+    font-size: 10pt;
+    font-weight: bold;
+    display:flex;
+    margin: auto 0;
+}
+
+.contacts-phone-content {
+    grid-area: p1;
+    display:flex;
+    margin: auto 0;
+    font-size: 9pt;
+    line-height: 25px;
+    padding: 0;
+}
+
+.contacts-email {
+    grid-area: e;
+    font-size: 10pt;
+    font-weight: bold;
+    display:flex;
+    margin: auto 0;
+}
+
+.contacts-email-content {
+    grid-area: e1;
+    display:flex;
+    margin: auto 0;
+    font-size: 9pt;
+    line-height: 25px;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.social-media-wrapper {
+    grid-area: s;
+    display:flex;
+    font-size: 15pt;
+}
+
+.social-media-wrapper i {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 12px;
+    margin-right: 10px;
+}
+
+footer {
+    margin: 30px 0 54px 0;
+    color: white;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+
