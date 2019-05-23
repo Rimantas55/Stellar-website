@@ -210,8 +210,96 @@ h2 {
     margin-bottom: 20px;
 }
 
-
-
 /*.pic1::before {*/
 /*    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f121";*/
 /*}*/
+
+
+
+/*section4 CSS*/
+.section4 {
+    border: 1px solid #e7e7e7;
+    background-color: white;
+    text-align: center;
+    padding: 37px 15px 8px 15px;
+    color: #636363;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+
+}
+
+.section4 h2 {
+    margin-bottom: 14px;
+}
+
+.section4 .border-line {
+    margin: 15px auto 22px auto;
+}
+
+.section4 .section4-first-content {
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.section4 .section4-last-content {
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 25px;
+}
+/*
+#efa8b0;
+#c79cc8;
+#a89cc8;
+#9bb2e1;
+#8cc9f0;
+*/
+
+/*cards CSS*/
+.color-card1, .color-card2, .color-card3, .color-card4, .color-card5 {
+    padding: 22px;
+}
+
+.color-card1{
+    background: #efa8b0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.color-card2{
+    background: #c79cc8;
+}
+
+.color-card3{
+    background: #a89cc8;
+}
+
+.color-card4{
+    background: #9bb2e1;
+}
+
+.color-card5{
+    background: #8cc9f0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.color-images-5{
+    margin: 0 19px 30px 19px;
+    color: white;
+}
+
+.some-name {
+    font-size: 10pt;
+    margin: 0;
+}
+
+.section4-number{
+    font-size: 28pt;
+    font-weight: 300;
+    margin: 0 auto 5px auto;
+}
+
+.section4 i {
+    font-size: 36pt;
+    margin: 17px auto 17px auto;
+}
