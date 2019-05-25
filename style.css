@@ -1,6 +1,7 @@
 /*Mobile CSS*/
 body:not(.section6) {
     background: linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 header {
@@ -27,6 +28,7 @@ header {
 
 /*kodel nehoverina and mobile kai uzvedam pele*/
 .back-btn:hover {
+    box-sizing: border-box;
     border: 1px solid #e7746f;
     border-radius: 4px;
     color: #e7746f;
@@ -128,7 +130,7 @@ h2 {
 .learn-more-btn {
     border: 1px solid #dddddd;
     border-radius: 8px;
-    min-width: 100%;
+    min-width: 100px;
     height: 2.75em;
     /*kai yra bottonas ir jame tekstas naudoja texto centravimui auksciui em?*/
     line-height: 2.75em;
@@ -330,7 +332,7 @@ spalvos
 .get-started-btn {
     background-color: #9acff2;
     border-radius: 8px;
-    min-width: 100%;
+    min-width: 100px;
     height: 2.75em;
     /*kai yra bottonas ir jame tekstas naudoja texto centravimui auksciui em?*/
     line-height: 2.75em;
@@ -464,5 +466,308 @@ footer {
     font-size: 10pt;
     padding: 10px;
 }
+
+/*@media CSS for bigger screen*/
+@media only screen and (min-width: 482px) {
+   .section1-content-wrapper {
+       max-width: 1000px;
+       margin: 0 30px;
+       background: white;
+       border-top-left-radius: 8px;
+       border-top-right-radius: 8px;
+   }
+
+    .section1 .section1-content-wrapper{
+        background: none;
+    }
+
+    .section1 {
+        padding: 64px 32px 16px 32px;
+    }
+
+    .section .logo {
+        margin-bottom: 24px;
+    }
+    .section1 p {
+        margin-bottom: 32px;
+        font-size: 1em;
+    }
+
+    .section1 h1 {
+        margin-bottom: 10px;
+        font-size: 2.5em;
+    }
+
+    /*Section2*/
+    .section2 {
+        background: none;
+        padding: 0;
+    }
+    .section2 .section1-content-wrapper {
+        padding: 48px 32px 16px 32px;
+    }
+    .section2 .phone {
+        height: 192px;
+        margin-bottom: 32px;
+    }
+
+    .section2 h2 {
+        margin-bottom: 17px;
+    }
+
+    .section2 .border-line {
+        width: 80px;
+        margin: 17px auto 24px auto;
+        height: 2px;
+        background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+    }
+    .section2 p {
+        margin: 0 0 32px 0;
+        font-size: 100%;
+        font-weight: normal;
+    }
+
+    .learn-more-btn {
+        border: 1px solid #dddddd;
+        border-radius: 8px;
+        max-width: 72px;
+        padding: 0 24px 0 24px;
+        height: 2.75em;
+        /*kai yra bottonas ir jame tekstas naudoja texto centravimui auksciui em?*/
+        line-height: 2.75em;
+        font-size: 12pt;
+        margin: 0 auto 32px auto;
+    }
+
+    .learn-more-btn:hover {
+        border: 1px solid #dddddd;
+        background-color: #f7f7f7;
+        border-radius: 8px;
+        max-width: 72px;
+        padding: 0 24px 0 24px;
+        height: 2.75em;
+        /*kai yra bottonas ir jame tekstas naudoja texto centravimui auksciui em?*/
+        line-height: 2.75em;
+        font-size: 12pt;
+        margin: 0 auto 32px auto;
+    }
+
+    /*section3*/
+    .section3 {
+        background: none;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+
+    .section3 .section1-content-wrapper{
+        margin: 0 30px 0 30px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        padding: 0 32px 0 32px;
+    }
+
+    .section3 .section1-content-wrapper:first-child{
+        border-top: 1px solid #e7e7e7;
+        padding-top: 48px;
+    }
+
+    .section3 h2 {
+        margin-bottom: 17px;
+        margin-top: 0;
+    }
+
+    .section3 .border-line {
+        width: 80px;
+        margin: 17px auto 24px auto;
+        height: 2px;
+        background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+    }
+
+    .section3 .border1 {
+        margin: 0 auto 24px auto;
+    }
+
+    .section3 h3 {
+        margin-bottom: 14px;
+        font-size: 1.25em;
+        font-weight: normal;
+    }
+    .section3 p {
+        padding-bottom: 32px;
+
+    }
+
+    .section3 p:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    .section3 .learn-more-btn {
+        border: 1px solid #dddddd;
+        border-radius: 8px;
+        max-width: 72px;
+        padding: 0 24px 0 24px;
+        height: 2.75em;
+        /*kai yra bottonas ir jame tekstas naudoja texto centravimui auksciui em?*/
+        line-height: 2.75em;
+        font-size: 12pt;
+        margin: 0 auto 0 auto;
+    }
+
+    .section3 .learn-more-btn:hover {
+        border: 1px solid #dddddd;
+        background-color: #f7f7f7;
+        border-radius: 8px;
+        max-width: 72px;
+        padding: 0 24px 0 24px;
+        height: 2.75em;
+        /*kai yra bottonas ir jame tekstas naudoja texto centravimui auksciui em?*/
+        line-height: 2.75em;
+        font-size: 12pt;
+        margin: 0 auto 0 auto;
+    }
+
+    .section3 div.learn-more-btn {
+        /*padding-bottom: 30px;*/
+    }
+
+    .section3 .section1-content-wrapper:last-child {
+        padding-bottom: 45px;
+    }
+
+    /*section4*/
+    .section4 {
+        background: none;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+
+    .section4 .section1-content-wrapper {
+        padding: 48px 32px 16px 32px;
+    }
+
+    .section4 .section1-content-wrapper:first-child {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border: 1px solid #e7e7e7;
+    }
+
+    .section4 h2 {
+        margin: 0 0 17px 0;
+    }
+
+    .section4 .border-line {
+        width: 80px;
+        margin: 17px auto 24px auto;
+        height: 2px;
+        background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+    }
+
+    .section4 .section4-first-content {
+        margin: 0 0 32px 0;
+        text-align: center;
+    }
+
+    /*section5*/
+    .section5 {
+        background: none;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+
+    .section5 .section1-content-wrapper {
+        padding: 48px 32px 16px 32px;
+    }
+
+    .section5 .section1-content-wrapper:first-child {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-top: 1px solid #e7e7e7;
+    }
+
+    .section5 .section1-content-wrapper{
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+
+    .section5 h2 {
+        margin: 0 0 17px 0;
+    }
+
+    .section5 .border-line {
+        width: 80px;
+        margin: 17px auto 24px auto;
+        height: 2px;
+        background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+    }
+
+    .section5 p {
+        margin-bottom: 32px;
+        font-size: 12pt;
+    }
+
+    .section5 .learn-more-btn {
+        border: 1px solid #dddddd;
+        border-radius: 8px;
+        max-width: 72px;
+        padding: 0 24px 0 24px;
+        height: 2.75em;
+        /*kai yra bottonas ir jame tekstas naudoja texto centravimui auksciui em?*/
+        line-height: 2.75em;
+        font-size: 12pt;
+        /*margin: 0 auto 0 auto;*/
+    }
+
+    .section5 .learn-more-btn{
+        margin: 0;
+    }
+
+    .section5 .get-started-btn {
+        background-color: #9acff2;
+        border-radius: 8px;
+        max-width: 72px;
+        padding: 0 24px 0 24px;
+        height: 2.75em;
+        /*kai yra bottonas ir jame tekstas naudoja texto centravimui auksciui em?*/
+        line-height: 2.75em;
+        font-size: 12pt;
+        color: white;
+        /*margin-bottom: 15px;*/
+    }
+
+    .section5 .section5-btn-wrapper {
+        margin: 0;
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*section6 */
+
+
+    .section6  {
+        padding: 0;
+        background-color: none;
+    }
+
+    .section6 .section1-content-wrapper {
+        background-color: none;
+        color: black;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
 
 
