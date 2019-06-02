@@ -55,6 +55,9 @@ header {
 /*    max-width: 100%;*/
 /*}*/
 
+.section2-nav {
+    display: none;
+}
 
 .back-btn {
     box-sizing: border-box;
@@ -518,7 +521,7 @@ footer {
        border-top-right-radius: 8px;
    }
 
-    .section1 .section1-content-wrapper{
+    .section1 .section1-content-wrapper, .section6 .section1-content-wrapper{
         background: none;
     }
 
@@ -582,7 +585,7 @@ footer {
 
     .learn-more-btn:hover {
         border: 1px solid #dddddd;
-        background-color: #f7f7f7;
+        background-color:rgba(255, 255, 255, 0.075);
         border-radius: 8px;
         max-width: 72px;
         padding: 0 24px 0 24px;
@@ -787,17 +790,17 @@ footer {
     }
 
     /*section6 */
+    .contacts-content .learn-more-btn {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .contacts-content .learn-more-btn {
+        text-align: center;
+        padding: 0 10px 0 10px;
+    }
 
 
-    /*.section6  {*/
-    /*    padding: 0;*/
-    /*    background-color: none;*/
-    /*}*/
-
-    /*.section6 .section1-content-wrapper {*/
-    /*    background-color: none;*/
-    /*    color: black;*/
-    /*}*/
 
 }
 
@@ -851,6 +854,88 @@ footer {
     .download-btn, .back-btn {
         margin-left: 10px;
     }
+
+    .section1 p {
+        display: inline-block;
+        width: 325px;
+    }
+
+   .section2 .section1-content-wrapper{
+       padding: 0 0 16px 0;
+   }
+
+   .section2-nav {
+       margin-bottom: 64px;
+       background-color: #f7f7f7;
+       border-top-left-radius: 8px;
+       border-top-right-radius: 8px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 16px 54px;
+       /*veliau greit pradingsta*/
+       position: sticky;
+       top: 54px;
+       left: 50px
+    }
+
+   .section2-nav div {
+       box-sizing: border-box;
+       padding: 0 20px 0 20px;
+       height: 36px;
+       line-height: 36px;
+       margin: auto;
+   }
+
+   .section2-nav .wrapper-wrapper div:first-child {
+       background-color: white;
+       border-radius: 8px;
+   }
+
+    .section2-nav a {
+        text-decoration: none;
+        color: #636363;
+    }
+
+    .wrapper-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /*Nesugalvojau kaip padaryti antra van sticky*/
+
+    /*.section3 .section1-content-wrapper:first-child {*/
+    /*    margin-right: 0;*/
+    /*}*/
+    /*.section3 .section1-content-wrapper:last-child {*/
+    /*    margin-left: 0;*/
+    /*}*/
+
+    /*.section3 .section1-content-wrapper:nth-child(2){*/
+    /*    margin: 0;*/
+    /*}*/
+
+    /*.section3 {*/
+    /*    display: grid;*/
+    /*    grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    /*    grid-template-rows:  ;*/
+    /*    grid-template-areas:*/
+    /*            ". header ."*/
+    /*            ""*/
+    /*            ""*/
+    /*            "";*/
+
+    /*}*/
+
+    /*.section3-h2-wrapper  {*/
+    /*    background-color: yellow;*/
+    /*}*/
+
+
+
+
+
 }
 
 
